@@ -45,7 +45,16 @@ async function Execute(target, ig, komen, latest_id)
     let enabled = 0 ;
     let checking = 0;
     let starting = 0;
-    console.log(`FRIST COMMENT CREATED BY ME\nNO TEAM 2020\nCEK komen.txt DENGAN PEMISAH |\n`)
+    console.log(`
+  _             _      __        _       _     _                                  
+ | |           | |    / _|      (_)     | |   | |                                 
+ | |__    ___  | |_  | |_  _ __  _  ___ | |_  | | __ ___   _ __ ___    ___  _ __  
+ | '_ \  / _ \ | __| |  _|| '__|| |/ __|| __| | |/ // _ \ | '_ ` _ \  / _ \| '_ \ 
+ | |_) || (_) || |_  | |  | |   | |\__ \| |_  |   <| (_) || | | | | ||  __/| | | |
+ |_.__/  \___/  \__| |_|  |_|   |_||___/ \__| |_|\_\\___/ |_| |_| |_| \___||_| |_|
+                                                                                  
+                                                                                  
+\nNO TEAM 2020\nCEK komen.txt DENGAN PEMISAH |\n`)
     const user_name   = readlineSync.question("Username : ")
     const pass_word   = readlineSync.question("Password : ")
     var tar_get       = readlineSync.question("Target (Pakai , Jika lebih dari 1) : ").split(',')
