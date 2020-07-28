@@ -45,7 +45,7 @@ async function Execute(target, ig, komen, latest_id)
     let enabled = 0 ;
     let checking = 0;
     let starting = 0;
-    console.log(`FRIST COMMENT CREATED BY ME\nNO TEAM 2020\nCEK komen.txt DENGAN PEMISAH |\n`)
+    console.log(`BOT FRIST KOMEN \nNO TEAM 2020\nCEK komen.txt DENGAN PEMISAH |\n`)
     const user_name   = readlineSync.question("Username : ")
     const pass_word   = readlineSync.question("Password : ")
     var tar_get       = readlineSync.question("Target (Pakai , Jika lebih dari 1) : ").split(',')
